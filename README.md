@@ -14,9 +14,10 @@ If you've already installed Quarto you can install the template like so:
 quarto use template NBISweden/nbis-templates-quarto
 ```
 
-This will install the template and create an example `.qmd` file that you can
-use as a starting place for your report. You can also just install the template
-itself without getting the `.qmd` file like so:
+This will install the template (_i.e._ create the `_extensions/` directory in
+your current location) and create an example `.qmd` file that you can use as a
+starting place for your report. You can also just install the template itself
+without getting the `.qmd` file like so:
 
 ```bash
 quarto add NBISweden/nbis-templates-quarto
