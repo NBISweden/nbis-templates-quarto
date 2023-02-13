@@ -1,0 +1,38 @@
+---
+title: NBIS Support \#1234
+subtitle: Some analyses
+author: Name Surname
+date: last-modified
+format:
+    nbis-html: default
+knitr:
+    opts_chunk:
+        fig.width: 12
+        fig.height: 8
+        fig.align: "center"
+        message: FALSE
+        warning: FALSE
+---
+
+# A section with a plot
+
+```{r}
+#| fig-cap: A figure
+library("ggplot2")
+data(iris)
+ggplot(iris, aes(x = Petal.Length, y = Petal.Width)) +
+    geom_point() +
+    theme_bw()
+```
+
+# Another section
+
+Some text with `inline code` and a
+[link](https://quarto.org/docs/output-formats/html-basics.html).
+
+## A subsection
+
+```{r}
+#| tbl-cap: A table
+iris[1:10, ]
+```
