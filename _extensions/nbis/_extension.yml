@@ -8,7 +8,7 @@ contributes:
       theme: [default, nbis.scss]
       toc: true
       toc-location: left
-      toc-title: <img src="_extensions/nbis/nbis-logo-green.svg" width="100" vspace="10"/>
+      toc-title: <img src="_extensions/NBISweden/nbis/nbis-logo-green.svg" width="100" vspace="10"/>
       df-print: paged
       code-fold: true
       smooth-scroll: true
