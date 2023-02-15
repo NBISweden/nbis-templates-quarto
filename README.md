@@ -36,19 +36,18 @@ format:
 ```
 
 The template uses the NBIS colours for _e.g._ table of contents, inline code and
-others. You can check the default format specifications in the
-`_extensions/nbis/_extension.yml` file, which can be overridden by your own YAML
-header, like so:
+syntax highlighting. You can check the default format specifications in the
+`_extension.yml` file, which can be overridden by your own YAML header, like so:
 
 ```yaml
 ...
 format:
     nbis-html:
         embed-resources: false
+        highlight-style: arrow
 ...
 ```
 
-You can find a minimal example in the [template.qmd](_extensions/nbis/template.qmd)
-file. While the example is using R and the `knitr` engine you can easily use a
-Jupyter kernel instead by specifying _e.g._ `jupyter: python3` or `jupyter: r`
-instead of `knitr: ...`.
+You can find a minimal example in the [template.qmd](template.qmd) file. While
+the example is using R and the `knitr` engine you can easily use a Jupyter
+kernel instead by specifying _e.g._ `jupyter: python3` instead of `knitr: ...`.

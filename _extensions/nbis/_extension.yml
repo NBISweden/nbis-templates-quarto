@@ -6,6 +6,7 @@ contributes:
   formats:
     html:
       theme: [default, nbis.scss]
+      highlight-style: nbis.theme
       toc: true
       toc-location: left
       toc-title: <img src="_extensions/NBISweden/nbis/nbis-logo-green.svg" width="100" vspace="10"/>
