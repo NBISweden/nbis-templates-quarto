@@ -19,8 +19,11 @@ knitr:
 ```{r}
 #| fig-cap: A figure
 library("ggplot2")
-data(iris)
-ggplot(iris, aes(x = Petal.Length, y = Petal.Width)) +
+library("palmerpenguins")
+data(penguins)
+ggplot(penguins, aes(x      = bill_length_mm,
+                     y      = bill_depth_mm,
+                     colour = species)) +
     geom_point() +
     theme_bw()
 ```
@@ -34,5 +37,5 @@ Some text with `inline code` and a
 
 ```{r}
 #| tbl-cap: A table
-iris[1:10, ]
+penguins[1:20, ]
 ```
