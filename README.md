@@ -1,10 +1,9 @@
 # NBIS Quarto template
 
 This repository contains a simple [Quarto](https://quarto.org/) template for use
-in _e.g._ NBIS fee-for-service reports. Quarto works with both Python and R out
-of the box, as well as for both HTML/PDF reports and revealjs-based
-presentations - the current version only includes a HTML-based template,
-however.
+in NBIS HTML reports and NBIS presentations. Quarto works with both Python and R
+out of the box, as well as for both HTML/PDF reports and revealjs-based
+presentations.
 
 ## Installation
 
@@ -25,13 +24,22 @@ quarto add NBISweden/nbis-templates-quarto
 
 ## Usage
 
-After a successful installation you can use the template by specifying the
-format in your YAML header, like so:
+After a successful installation you can use the template by specifying _e.g._
+the HTML format in your YAML header, like so:
 
 ```yaml
 ...
 format:
     nbis-html: default
+...
+```
+
+You can also use the included `reveal.js` format:
+
+```yaml
+...
+format:
+    nbis-revealjs: default
 ...
 ```
 
@@ -50,4 +58,4 @@ format:
 
 You can find a minimal example in the [template.qmd](template.qmd) file. While
 the example is using R and the `knitr` engine you can easily use a Jupyter
-kernel instead by specifying _e.g._ `jupyter: python3` instead of `knitr: ...`.
+kernel instead by specifying _e.g._ `jupyter: python3`.

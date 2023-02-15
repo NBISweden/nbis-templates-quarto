@@ -33,7 +33,7 @@ ggplot(penguins, aes(x      = bill_length_mm,
 Some text with `inline code` and a
 [link](https://quarto.org/docs/output-formats/html-basics.html).
 
-## A subsection
+# A section with a table
 
 ```{r}
 #| tbl-cap: A table

@@ -14,3 +14,9 @@ contributes:
       code-fold: true
       smooth-scroll: true
       embed-resources: true
+    revealjs:
+      theme: [default, nbis.scss]
+      logo: nbis-logo-green.svg
+      slide-number: false
+      scrollable: true
+      embed-resources: true
