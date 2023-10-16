@@ -160,3 +160,22 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0
 .cell-output-stderr > pre > code {
   color: $yellow;
 }
+
+// Custom colours
+.green {
+    color: $green;
+    font-weight: bold;
+}
+.blue {
+    color: $blue;
+    font-weight: bold;
+}
+.light-grey {
+    color: $grey-60;
+}
+.grey {
+    color: $grey-40;
+}
+.dark-grey {
+    color: $grey-20;
+}
