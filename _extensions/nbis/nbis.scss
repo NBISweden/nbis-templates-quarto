@@ -153,16 +153,16 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0
 
 // Blockquotes
 .blockquote {
-  color: $primary;
-  border-left-color: $primary;
+    color: $primary;
+    border-left-color: $primary;
 }
 
 // Cell Output
 .cell-output-error > pre > code {
-  color: $red;
+    color: $red;
 }
 .cell-output-stderr > pre > code {
-  color: $yellow;
+    color: $yellow;
 }
 
 // Horizontally center level 1 headers
