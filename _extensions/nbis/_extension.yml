@@ -18,5 +18,5 @@ contributes:
       theme: [default, nbis.scss]
       logo: nbis-logo-green.svg
       slide-number: false
-      scrollable: true
       embed-resources: true
+      slide-level: 2
