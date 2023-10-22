@@ -165,6 +165,14 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0
   color: $yellow;
 }
 
+// Text justification
+.justify-right {
+    text-align: right
+}
+.justify-center {
+    text-align: center
+}
+
 // Custom colours
 .green {
     color: $green;
