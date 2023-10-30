@@ -5,18 +5,19 @@ quarto-required: ">=1.2.0"
 contributes:
   formats:
     html:
-      theme: [default, nbis.scss]
+      code-fold: true
+      df-print: paged
+      embed-resources: true
       highlight-style: nbis.theme
-      toc: true
+      smooth-scroll: true
+      theme: [default, nbis.scss]
       toc-location: left
       toc-title: <img src="_extensions/NBISweden/nbis/nbis-logo-green.svg" width="100" vspace="10"/>
-      df-print: paged
-      code-fold: true
-      smooth-scroll: true
-      embed-resources: true
+      toc: true
     revealjs:
-      theme: [default, nbis.scss]
-      logo: nbis-logo-green.svg
-      slide-number: false
+      code-line-numbers: false
       embed-resources: true
+      logo: nbis-logo-green.svg
       slide-level: 2
+      slide-number: false
+      theme: [default, nbis.scss]
