@@ -12,7 +12,7 @@ contributes:
       smooth-scroll: true
       theme: [default, nbis.scss]
       toc-location: left
-      toc-title: <img src="_extensions/NBISweden/nbis/nbis-logo-green.svg" width="100" vspace="10"/>
+      toc-title: nbis-logo-green.svg
       toc: true
     revealjs:
       code-line-numbers: false
