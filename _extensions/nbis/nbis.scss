@@ -196,3 +196,8 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0
 .dark-grey {
     color: $grey-20;
 }
+
+// Logo padding for reveal.js presentations
+.reveal .slide-logo {
+    padding: 10px 3px 15px 10px !important;
+}
