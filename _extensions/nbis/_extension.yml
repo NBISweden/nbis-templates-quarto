@@ -11,9 +11,11 @@ contributes:
       highlight-style: nbis.theme
       smooth-scroll: true
       theme: [default, nbis.scss]
-      toc-location: left
-      toc-title: nbis-logo-green.svg
       toc: true
+      toc-image: nbis-logo-green.png
+      toc-location: left
+      template-partials:
+        - toc.html
     revealjs:
       code-line-numbers: false
       embed-resources: true
