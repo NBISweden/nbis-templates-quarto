@@ -19,7 +19,7 @@ contributes:
     revealjs:
       code-line-numbers: false
       embed-resources: true
-      logo: nbis-logo-green.svg
+      logo: nbis-logo-green.png
       slide-level: 2
       slide-number: false
       theme: [default, nbis.scss]
